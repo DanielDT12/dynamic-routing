@@ -20,7 +20,7 @@ export const productData: productsInterface[] = [
 		description:
 			"Long pole tactile switches with a shorter travel distance, comes pre lubed by the factory.",
 		stock: 100,
-		image: "/images/switches/bsun-pine-tactile-switches-337790.webp",
+		image: "/images/switches/bsun-pine.webp",
 		ref: "bsun-pine",
 	},
 	{
@@ -222,8 +222,8 @@ export const productData: productsInterface[] = [
 		price: 0.85,
 		description: "Silent linear switch perfect for quiet typing and gaming.",
 		stock: 90,
-		image: "/images/switches/lichix-lucy-silent-linear.webp",
-		ref: "lichix-lucy-silent-linear",
+		image: "/images/switches/lichicx-lucy-silent-linear.webp",
+		ref: "lichicx-lucy-silent-linear",
 	},
 	{
 		id: 19,
@@ -234,8 +234,8 @@ export const productData: productsInterface[] = [
 		description:
 			"Silent tactile switch with a soft bump and quiet operation, great for shared spaces.",
 		stock: 85,
-		image: "/images/switches/lichix-raw-silent.webp",
-		ref: "lichix-raw-silent",
+		image: "/images/switches/lichicx-raw-silent.webp",
+		ref: "lichicx-raw-silent",
 	},
 	{
 		id: 20,
