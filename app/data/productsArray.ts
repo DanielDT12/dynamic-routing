@@ -1,0 +1,311 @@
+interface productsInterface {
+	id: number;
+	brand: string;
+	name: string;
+	type: string;
+	price: number;
+	description: string;
+	stock: number;
+	image: string;
+	ref: string;
+}
+
+export const productData: productsInterface[] = [
+	{
+		id: 1,
+		brand: "BSUN",
+		name: "Pine",
+		type: "Tactile",
+		price: 0.75,
+		description:
+			"Long pole tactile switches with a shorter travel distance, comes pre lubed by the factory.",
+		stock: 100,
+		image: "/images/switches/bsun-pine-tactile-switches-337790.webp",
+		ref: "bsun-pine",
+	},
+	{
+		id: 2,
+		brand: "BSUN",
+		name: "Raw",
+		type: "Linear",
+		price: 0.65,
+		description:
+			"Smooth linear switch with a clean sound profile and fast actuation.",
+		stock: 120,
+		image: "/images/switches/bsun-raw.webp",
+		ref: "bsun-raw",
+	},
+	{
+		id: 3,
+		brand: "Cherry",
+		name: "MX Black",
+		type: "Linear",
+		price: 0.55,
+		description:
+			"Classic linear switch with high durability and consistent keypresses.",
+		stock: 150,
+		image: "/images/switches/cherry-mx-black-2a.webp",
+		ref: "cherry-mx-black",
+	},
+	{
+		id: 4,
+		brand: "Cherry",
+		name: "MX Ergo Clear",
+		type: "Tactile",
+		price: 0.6,
+		description: "Tactile switch with a medium tactile bump, great for typing.",
+		stock: 130,
+		image: "/images/switches/cherry-mx-ergo-clear.webp",
+		ref: "cherry-mx-ergo-clear",
+	},
+	{
+		id: 5,
+		brand: "Cherry",
+		name: "MX Cleartop",
+		type: "Tactile",
+		price: 0.65,
+		description:
+			"Tactile switches with a smooth actuation and clear top housing for RGB lighting.",
+		stock: 90,
+		image: "/images/switches/cherry-mx-cleartop.webp",
+		ref: "cherry-mx-cleartop",
+	},
+	{
+		id: 6,
+		brand: "Cherry",
+		name: "MX2A Brown",
+		type: "Tactile",
+		price: 0.7,
+		description:
+			"MX2A Brown switches feature a softer tactile bump, ideal for quieter typing.",
+		stock: 110,
+		image: "/images/switches/cherry-mx2a-brown.webp",
+		ref: "cherry-mx2a-brown",
+	},
+	{
+		id: 7,
+		brand: "Durock",
+		name: "Black Lotus",
+		type: "Linear",
+		price: 0.8,
+		description:
+			"Smooth linear switch with deep sound profile and fast actuation.",
+		stock: 75,
+		image: "/images/switches/durock-black-lotus.webp",
+		ref: "durock-black-lotus",
+	},
+	{
+		id: 8,
+		brand: "Durock",
+		name: "Blue Lotus Tactile",
+		type: "Tactile",
+		price: 0.85,
+		description:
+			"Tactile switch with a prominent bump and smooth return, pre-lubed.",
+		stock: 80,
+		image: "/images/switches/durock-blue-lotus-tactile.webp",
+		ref: "durock-blue-lotus-tactile",
+	},
+	{
+		id: 9,
+		brand: "Durock",
+		name: "POM Linear",
+		type: "Linear",
+		price: 0.75,
+		description:
+			"Premium linear switch made from durable POM material for long-lasting performance.",
+		stock: 95,
+		image: "/images/switches/durock-pom-linear.webp",
+		ref: "durock-pom-linear",
+	},
+	{
+		id: 10,
+		brand: "Durock",
+		name: "Shrimp Silent Tactile",
+		type: "Tactile",
+		price: 0.9,
+		description:
+			"Silent tactile switch with a quiet yet satisfying bump for a stealthy typing experience.",
+		stock: 85,
+		image: "/images/switches/durock-shrimp-silent-tactile.webp",
+		ref: "durock-shrimp-siltent-tactile",
+	},
+	{
+		id: 11,
+		brand: "Durock",
+		name: "Silent Linear",
+		type: "Linear",
+		price: 0.78,
+		description:
+			"Silent linear switch, perfect for quiet working environments without sacrificing smoothness.",
+		stock: 100,
+		image: "/images/switches/durock-silent-linear.webp",
+		ref: "durock-silent-linear",
+	},
+	{
+		id: 12,
+		brand: "Durock",
+		name: "T1 Tactile",
+		type: "Tactile",
+		price: 0.7,
+		description:
+			"Well-known tactile switch with a sharp tactile bump and responsive feel.",
+		stock: 120,
+		image: "/images/switches/durock-t1-tactile.webp",
+		ref: "durock-t1-tactile",
+	},
+	{
+		id: 13,
+		brand: "Durock",
+		name: "White Lotus Tactile",
+		type: "Tactile",
+		price: 0.88,
+		description:
+			"Premium tactile switch with a medium bump and smooth travel distance.",
+		stock: 75,
+		image: "/images/switches/durock-white-lotus-tactile.webp",
+		ref: "durock-white-lotus-tactile",
+	},
+	{
+		id: 14,
+		brand: "Gateron",
+		name: "Ink V2",
+		type: "Linear",
+		price: 0.85,
+		description:
+			"Highly popular linear switch with a buttery smooth actuation and deep sound.",
+		stock: 90,
+		image: "/images/switches/gateron-ink-v2.webp",
+		ref: "gateron-ink-v2",
+	},
+	{
+		id: 15,
+		brand: "Gateron",
+		name: "Mini Tactile",
+		type: "Tactile",
+		price: 0.72,
+		description:
+			"Compact tactile switch with a soft bump and quick actuation for faster keypresses.",
+		stock: 100,
+		image: "/images/switches/gateron-mini-tactile.webp",
+		ref: "gateron-mini-tactile",
+	},
+	{
+		id: 16,
+		brand: "Gateron",
+		name: "Oil King",
+		type: "Linear",
+		price: 0.9,
+		description:
+			"Smooth linear switch with a durable build and rich, deep sound.",
+		stock: 110,
+		image: "/images/switches/gateron-oil-king.webp",
+		ref: "gateron-oil-king",
+	},
+	{
+		id: 17,
+		brand: "JWK",
+		name: "Black T1 Tactile",
+		type: "Tactile",
+		price: 0.8,
+		description:
+			"Popular tactile switch with a heavy bump and smooth keypress feel.",
+		stock: 95,
+		image: "/images/switches/jwk-black-t1-tactile.webp",
+		ref: "jwk-black-t1-tactile",
+	},
+	{
+		id: 18,
+		brand: "Lichix",
+		name: "Lucy Silent Linear",
+		type: "Linear",
+		price: 0.85,
+		description: "Silent linear switch perfect for quiet typing and gaming.",
+		stock: 90,
+		image: "/images/switches/lichix-lucy-silent-linear.webp",
+		ref: "lichix-lucy-silent-linear",
+	},
+	{
+		id: 19,
+		brand: "Lichix",
+		name: "Raw Silent",
+		type: "Tactile",
+		price: 0.87,
+		description:
+			"Silent tactile switch with a soft bump and quiet operation, great for shared spaces.",
+		stock: 85,
+		image: "/images/switches/lichix-raw-silent.webp",
+		ref: "lichix-raw-silent",
+	},
+	{
+		id: 20,
+		brand: "NovelKeys",
+		name: "Cream",
+		type: "Linear",
+		price: 1.0,
+		description:
+			"Highly regarded linear switch made from POM material for a smooth, consistent experience.",
+		stock: 60,
+		image: "/images/switches/novelkeys-cream.webp",
+		ref: "novelkeys-cream",
+	},
+	{
+		id: 21,
+		brand: "Saturn Studio",
+		name: "White Drew Diamond",
+		type: "Tactile",
+		price: 0.92,
+		description:
+			"Premium tactile switch with a solid bump and dazzling appearance.",
+		stock: 70,
+		image: "/images/switches/saturn-studio-white-drew-diamond.webp",
+		ref: "saturn-studio-white-drew-diamond",
+	},
+	{
+		id: 22,
+		brand: "Tecsee",
+		name: "Lake Blue",
+		type: "Tactile",
+		price: 0.75,
+		description: "Tactile switch with a pronounced bump and smooth travel.",
+		stock: 80,
+		image: "/images/switches/tecsee-lake-blue.webp",
+		ref: "tecsee-lake-blue",
+	},
+	{
+		id: 23,
+		brand: "Tecsee",
+		name: "Mango Ice Tactile",
+		type: "Tactile",
+		price: 0.85,
+		description:
+			"Tactile switch with a tropical-inspired design and smooth typing feel.",
+		stock: 70,
+		image: "/images/switches/tecsee-mango-ice-tactile.webp",
+		ref: "tecsee-mango-ice-tactile",
+	},
+	{
+		id: 24,
+		brand: "Wuque",
+		name: "WS Jade",
+		type: "Linear",
+		price: 0.8,
+		description:
+			"Smooth linear switch with a unique jade green housing, great for fast typing.",
+		stock: 85,
+		image: "/images/switches/wuque-ws-jade.webp",
+		ref: "wuque-ws-jade",
+	},
+	{
+		id: 25,
+		brand: "Wuque",
+		name: "WS Silent Tactile",
+		type: "Tactile",
+		price: 0.88,
+		description:
+			"Silent tactile switch with a soft bump and quiet operation, ideal for office use.",
+		stock: 90,
+		image: "/images/switches/wuque-ws-silent-tactile.webp",
+		ref: "wuque-ws-silent-tactile",
+	},
+];
