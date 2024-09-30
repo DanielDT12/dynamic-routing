@@ -1,20 +1,16 @@
-import Link from "next/link";
-import { productData } from "../data/productsArray";
-import Image from "next/image";
+import Header from "../components/Header";
+import SwitchGrid from "../components/SwitchGrid";
+import Footer from "../components/Footer";
 
 export default function SwitchesPage() {
 	return (
-		<div>
-			{productData.map((product, index) => (
-				<Link key={product.id + index} href={`/switches/${product.ref}`}>
-					<Image
-						src={product.image}
-						alt={product.brand + product.name}
-						width={100}
-						height={100}
-					/>
-				</Link>
-			))}
-		</div>
+		<>
+			<Header />
+			<main>
+				<h1 className="text-center text-4xl mb-8">Our Switches</h1>
+				<SwitchGrid />
+			</main>
+			<Footer />
+		</>
 	);
 }
