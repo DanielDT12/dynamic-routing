@@ -14,7 +14,7 @@ export default function SwitchGrid() {
 							width={200}
 							height={200}
 						/>
-						<div className="absolute inset-0 place-content-center text-center text-2xl font-bold opacity-0 hover:opacity-100 hover:bg-[rgba(0,0,0,0.75)]">
+						<div className="absolute inset-0 place-content-center text-center text-2xl font-bold opacity-0 hover:opacity-100 hover:bg-[rgba(0,0,0,0.75)] transition-opacity">
 							<p className="p-2">{product.name}</p>
 						</div>
 					</Link>
