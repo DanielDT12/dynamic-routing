@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { productData } from "./data/productsArray";
 import Link from "next/link";
 
 export default function Home() {
